@@ -89,3 +89,9 @@
   grid-area: 🌟;
   animation-delay: calc(13 * var(--stagger-delay));
 }
+
+@media only screen and (max-width: 600px) {
+    .animated-grid {
+        margin: auto;
+        justify-content: center;
+    }
