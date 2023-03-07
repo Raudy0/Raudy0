@@ -5,17 +5,17 @@
     <meta charset="utf-8" />
     <title>J&J Auto Shop</title>
     <base href="/" />
-    <link href="app.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
     <link href="manifest.webmanifest" rel="manifest" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="theme.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
           rel="stylesheet" />
-    <link rel="stylesheet" href="base.css" />
-    <link rel="stylesheet" href="basic-grid.css" />
-    <link rel="stylesheet" href="animated-grid.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/basic-grid.css" />
+    <link rel="stylesheet" href="css/animated-grid.css" />
     <!-- If you add any scoped CSS files, uncomment the following to load them
     <link href="JandJAuto.Client.styles.css" rel="stylesheet" /> -->
 </head>
@@ -156,7 +156,7 @@
             <div class="card">Transmission Swaps</div>
             <div class="card">Suspension</div>
             <div class="card">ASE Certified</div>
-            <div class="card"><img src="JnJ1_Transparent.png">main<img /></div>
+            <div class="card"><img src="images/JnJ1_Transparent.png">main<img /></div>
         </section>
         <!--<div class="search-box">
         <input type="text" class="search-input" placeholder="Start Looking For Something!">
@@ -167,8 +167,16 @@
 
     </main>
 
-    </div>
 
+
+    <div id="app">Loading...</div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 
