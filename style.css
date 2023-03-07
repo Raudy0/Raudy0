@@ -179,6 +179,10 @@ main {
 
 /* Large screens */
 @media only screen and (min-width: 600px) {
+    .animated-grid{
+        margin: auto;
+        justify-content:center;
+    }    
     .navbar {
         top: 0;
         width: 5rem;
