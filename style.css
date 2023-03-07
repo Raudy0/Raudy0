@@ -43,7 +43,6 @@ main {
     background-color: var(--bg-primary);
     transition: width 600ms ease;
     overflow: scroll;
-    background:transparent;
 }
 
 .navbar-nav {
