@@ -1,4 +1,4 @@
-﻿
+
 :root {
     font-size: 16px;
     font-family: 'Open Sans';
@@ -20,6 +20,7 @@ body {
         width: 0.25rem;
     }
 
+
     body::-webkit-scrollbar-track {
         background: #1e1e24;
     }
@@ -29,11 +30,9 @@ body {
     }
 
 main {
-    padding: 1rem;
     list-style:none;
     display: flex;
     flex-direction: row;
-    height: 100%;
 }
 
 
@@ -156,7 +155,7 @@ main {
     .navbar {
         bottom: 0;
         width: 100vw;
-        height: 5rem;
+        height: 6rem;
     }
 
     .logo {
@@ -179,13 +178,9 @@ main {
 
 /* Large screens */
 @media only screen and (min-width: 600px) {
-    .animated-grid{
-        margin: auto;
-        justify-content:center;
-    }    
     .navbar {
         top: 0;
-        width: 5rem;
+        width: 6rem;
         height: 100vh;
     }
 
@@ -308,12 +303,43 @@ main {
     background: #fff;
     color: #cd595a;
 }
-/* Set the size of the div element that contains the map */
 
-#map {
-
-  height: 400px; /* The height is 400 pixels */
-
-  width: 100%; /* The width is the width of the web page */
-
+.phone {
+    background-color: #152C48;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px;
 }
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px;
+}
+
+img {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    padding: 0px;
+}
+
+p {
+    display: none;
+    color: #ffffff;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1920px) {
+    a {
+        display: none;
+    }
+
+    p {
+        display: inline-block;
+    }
+}
+
