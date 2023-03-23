@@ -35,6 +35,23 @@
   animation: cardEntrance 700ms ease-out;
   animation-fill-mode: backwards;
   text-size-adjust:auto;
+  object-fit:cover;
+
+}
+.card-img {
+    font-size: xx-large;
+    text-align: center;
+    background-color: darkred;
+    animation: cardEntrance 700ms ease-out;
+    animation-fill-mode: backwards;
+    text-size-adjust: auto;
+    object-fit: cover;
+    height: 23.5rem;
+    width: 25rem;
+    min-height:min-content;
+    min-width:min-content;
+    max-height: 23.5rem;
+    max-width: 25rem;
 }
 
 .card:nth-child(1) {
@@ -85,13 +102,7 @@
   grid-area: l;
   animation-delay: calc(12 * var(--stagger-delay));
 }
-.card:last-child {
+.card-img:last-child {
   grid-area: 🌟;
   animation-delay: calc(13 * var(--stagger-delay));
 }
-
-@media only screen and (max-width: 600px) {
-    .animated-grid {
-        margin: auto;
-        justify-content: center;
-    }
