@@ -1,8 +1,11 @@
 .animated-grid {
     margin-left:5rem;
     height: 85vh;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     display: grid;
+    place-content: center;
+    place-items:center;
+    place-self:center;
     gap: .5rem;
     /* Explicit grid */
     grid-template-areas:
@@ -13,6 +16,7 @@
     grid-template-rows: repeat(4, 25%);
     grid-template-columns: 240px auto auto 240px;
     --stagger-delay: 100ms;
+    width: clamp(100vw,50%,600px);
 }
 
 @keyframes cardEntrance {
@@ -48,8 +52,6 @@
     object-fit: cover;
     height: 23.5rem;
     width: 25rem;
-    min-height:min-content;
-    min-width:min-content;
     max-height: 23.5rem;
     max-width: 25rem;
 }
