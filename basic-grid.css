@@ -14,7 +14,7 @@
   
     /* 4 final */
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  
+    width: clamp(100vw,50%,auto);
  }
 .serv-link {
     display: flex;
