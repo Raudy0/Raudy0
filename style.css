@@ -61,6 +61,10 @@ main {
     .nav-item:last-child {
         margin-top: auto;
     }
+   .nav-item-div {
+    display: flex;
+    flex-direction: row;
+    }
 
 .nav-link {
     display: flex;
