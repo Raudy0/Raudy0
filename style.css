@@ -174,9 +174,13 @@ main {
         justify-content: center;
     }
 
-    main {
+   main {
         margin: auto;
-        justify-content:center;
+        justify-content: center;
+        width:clamp(100vw,50%,600px)
+    }
+    body {
+        width:clamp(100vw,50%,600px)
     }
 }
 
@@ -203,6 +207,12 @@ main {
             .navbar:hover .logo-text {
                 left: 0px;
             }
+        main {
+        width:clamp(100vw,50%,1200px)
+    }
+    body {
+        width:clamp(100vw,50%,1200px)
+    }
 }
 
 .dark {
