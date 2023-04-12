@@ -1,7 +1,6 @@
 .animated-grid {
     margin-left:5rem;
     height: 85vh;
-    margin-bottom: 100px;
     display: grid;
     place-content: center;
     place-items:center;
