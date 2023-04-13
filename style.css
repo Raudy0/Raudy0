@@ -177,10 +177,9 @@ main {
    main {
         margin: auto;
         justify-content: center;
-        width:clamp(100vw,50%,600px)
     }
     body {
-        width:clamp(100vw,50%,600px)
+        width:100%;
     }
 }
 
@@ -208,10 +207,10 @@ main {
                 left: 0px;
             }
         main {
-        width:clamp(100vw,50%,1200px)
+        width:100%;
     }
     body {
-        width:clamp(100vw,50%,1200px)
+        width:100%;
     }
 }
 
